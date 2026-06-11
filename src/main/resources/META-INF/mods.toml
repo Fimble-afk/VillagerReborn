@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[dependencies.villagerreborn]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.villagerreborn]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+    modId="villagerreborn"
+    version="1.0.0"
+    displayName="Villager Reborn"
+    description='''
+Villager Reborn brings your Minecraft villages to life!
+
+Features:
+- Rich villager dialogue based on profession, time of day, and your reputation
+- Quest system: deliver items, gather resources, or slay monsters
+- Village Reputation System with 5 ranks: Stranger, Acquaintance, Friend, Ally, Champion
+- Daily emerald income based on your rank
+- Personal Guardian Golem for Champions
+- Villager AI expansion: farmers tend crops, masons lay paths, new buildings appear
+- Quest Journal item to track all progress
+
+Talk to villagers by right-clicking them!
+'''
+    logoFile="villagerreborn.png"
+    authors="VillagerReborn Team"
+    [[mods.dependencies]]
